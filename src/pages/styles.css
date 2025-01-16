@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #2d3250;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registration-container {
+  display: flex;
+  max-width: 800px;
+  background-color: #424769;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background: rgba(66, 71, 105, 0.7); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+
+}
+
+.form-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.form-section header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form-section p {
+  margin-bottom: 20px;
+  color: #d1d1d1;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #d1d1d1;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2d3250;
+  color: #fff;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9b17a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #e09c6b;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+}
+
+.image-section {
+  flex: 1;
+  background-color: #1f2437;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.socials:hover {
+    cursor: pointer;
+}
+
+
+.headerInfo {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hInfo:hover {
+    color: rgb(253, 190, 0);
+    cursor: pointer;
+}
